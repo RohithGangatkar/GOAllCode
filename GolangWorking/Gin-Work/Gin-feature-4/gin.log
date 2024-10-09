@@ -1,0 +1,43 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /                         --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /JSONP?callback=x         --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /jsonp                    --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /postQuery                --> main.main.func5 (3 handlers)
+[GIN-debug] GET    /user/:name/*action       --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /json                     --> main.main.func7 (3 handlers)
+[GIN-debug] GET    /purejson                 --> main.main.func8 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func9 (3 handlers)
+[GIN-debug] GET    /redirect                 --> main.main.func10 (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /endpoint2                --> main.runService2.func1 (3 handlers)
+[GIN-debug] GET    /endpoint1                --> main.runService1.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8082
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/07/22 - 19:06:57 | 200 |       486.5µs |             ::1 | GET      "/endpoint1"
+[GIN] 2024/07/22 - 19:06:57 | 404 |            0s |             ::1 | GET      "/favicon.ico"
